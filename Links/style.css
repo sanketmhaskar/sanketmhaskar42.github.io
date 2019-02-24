@@ -1,0 +1,209 @@
+body{
+background-color: var(--background);
+overflow-x: hidden;
+}
+.intro{
+    margin-top: 300px;
+}
+.intro-details{font-family:Montserrat;
+    text-align: center;
+    
+    }
+.intro1{
+    font-family:lato;
+text-align: center;
+color: var(--dark-secondary)
+}
+
+p{
+    margin-left:100px;
+    font-family: Montserrat;
+    margin-top: 350px;
+    color: var(--dark-primary)
+}
+
+.img-container {
+    /* height: 700px; */
+    margin-top: 350px;
+     box-shadow: 5px 5px rgb(204, 201, 201); 
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.profile-img {
+    transition: all 0.5s;
+}
+.profile-img:hover {
+    transform: scale(1.1)
+}
+/* img{
+    
+    height: 700px;
+    width: 40;
+    margin-top: 350px;
+    box-shadow: 5px 5px rgb(204, 201, 201);
+    border: none;
+    cursor: pointer;
+} */
+    /* img:hover {
+        opacity: 0.9;
+        filter: alpha(opacity=50)
+    } */
+   .progress{
+        margin-left: 100px;
+        background-color: var(--secondary);
+    }
+    .progress-bar{
+        background-color: var(--primary);
+    
+    }
+    
+    .footer {
+        font-family: Quicksand;
+        font-size: 150%;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 05vh;
+        background-color: var(--footer-background);
+        color: var(--footer-background);
+        text-align: center;
+        padding-top: 25px;
+        /* padding-inline-start: 30%; */
+        
+     }
+     
+     li{
+         font-family: lato;
+         font-size: 200%;
+         color:var(--dark-secondary);
+     }
+
+     ul.timeline {
+        list-style-type: none;
+        position: relative;
+    }
+    
+    ul.timeline:before {
+        content: ' ';
+        background: #0f1011;
+        display: inline-block;
+        position: absolute;
+        left: 29px;
+        width: 2px;
+        height: 100%;
+        z-index: 400;
+    }
+    ul.timeline > li {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+    ul.timeline > li::before {
+        content: ' ';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid var(--primary);
+        left: 15px;
+        width: 30px;
+        height: 30px;
+        z-index: 400;
+    }
+    
+    
+    /* For Download Button */
+.btn-download {
+    margin: 30%;
+    height: 40px !important;
+    background: rgb(54, 236, 69);
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    width: 50% !important;
+    transition: all 0.5s ease-out;
+    
+}
+.btn-download:hover{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: underline;
+}
+/* For Download Button End */
+
+.My-Work{
+    width: 200px;
+    padding: 80px;
+    border: 5px solid var(--dark-primary);
+    margin: 0;
+}
+
+  .material-icons:hover{
+    opacity: 0.7;
+  }
+  .glyphicon:hover{
+      opacity:0.7;
+  }
+ 
+
+  .i-container{
+    height: 40vh;
+    display: flex;
+    background-size: cover !important;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    cursor: pointer;
+    width:99.5%
+}
+
+.i-container h3 {
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.i-container:hover h3 {
+    font-size: 28px;
+    border-bottom: 2px solid #fff;
+    text-transform: uppercase;
+
+}
+.skills-container {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('Images/skills.jpg');  
+}
+.skills-container:hover {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('Images/skills.jpg'); 
+}
+
+.works-container {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('Images/works.jpg');  
+}
+.works-container:hover {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('Images/works.jpg'); 
+}
+.contact-container {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('Images/contact.jpg');  
+}
+.contact-container:hover {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('Images/contact.jpg');  
+}
+
+.fb-ic{
+font-size: 100%;
+}
+.skill{
+    text-align: center;
+}
+
+.checked{
+    color:orange;
+}
+.border{
+    border: 5px solid red;
+    width: 400px;
+    
+}

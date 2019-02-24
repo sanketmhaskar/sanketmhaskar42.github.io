@@ -1,0 +1,9 @@
+body{
+    --primary: rgb(245, 110, 184);
+    --secondary: rgb(247, 176, 215);
+    --dark-primary: #707070;
+    --dark-secondary: #929090;
+    --background: #F2EEEE; 
+    --footer:rgb(202, 187, 187);
+    --footer-background:black;
+}
